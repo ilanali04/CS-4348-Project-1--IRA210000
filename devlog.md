@@ -32,7 +32,7 @@ c) Plan Today:
 - Write encryptor.py (commands: PASS, ENCRYPT, DECRYPT, QUIT)
 - Do quick tests from the terminal
 
-### Session 1 End: 10-15-2025 8:30PM
+### Session 1 End: 10-15-2025 8:20PM
 a) Reflection
 - I was able to complete the items I wanted for the session
 - I was not able to conduct testing on the parts that I completed today and will need to do that tomorrow
