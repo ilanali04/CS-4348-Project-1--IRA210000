@@ -50,3 +50,9 @@ a) Thoughts so far
 b) Plan for this session
 - Finish up the driver and test along the way to see if the logger and encryptor are working as intended
 - If I am able to finish all of the coding for the driver I can do a full end to end testing
+
+### Session 2 End: 10-16-2025 12:20AM
+a) Reflection
+- I was not able to complete all of the items I wanted for this session
+- I have coded the driver but there seems to be an issue for the password. I was able to do some testing but I will need to continue next session 
+- Next session I would like to work on the integration of the of the three parts and ensure that everything is working properly
