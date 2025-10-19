@@ -1,10 +1,34 @@
-#!/usr/bin/env python3
 import sys
 import os
 import subprocess
 
 def letters_only(s: str) -> bool:
     return s.isalpha()
+
+def pick_from_history(history, prompt):
+    if not history:
+        print("(history empty)")
+        return None
+    while True:
+        print(f"\n{prompt}")
+        for idx, item in enumerate(history, start=1):
+            print(f"  {idx}) {item}")
+        print("  0) Enter a new string")
+        choice = input("Select number (or 0): ").strip()
+        if choice.isdigit():
+            n = int(choice)
+            if n == 0:
+                return None
+            if 1 <= n <= len(history):
+                return history[n-1]
+        print("Invalid choice.")
+
+def launch(script_path, *args):
+    return subprocess.Popen([sys.executable, script_path, *args],
+                            stdin=subprocess.PIPE,
+                            stdout=subprocess.PIPE,
+                            text=True,
+                            bufsize=1)
 
 def main():
     if len(sys.argv) != 2:
@@ -18,6 +42,11 @@ def main():
 
     logger = launch(logger_path, logfile)
     encryptor = launch(encryptor_path)
+
+    def log(action, msg=""):
+        if logger.stdin:
+            logger.stdin.write(f"{action} {msg}\n")
+            logger.stdin.flush()
 
     def send(cmd):
         if encryptor.stdin is None or encryptor.stdout is None:
