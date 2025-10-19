@@ -66,3 +66,10 @@ b) Plan for this session
 - Fix the issues in the encryptor
 - Continue work on the driver and make sure the integration for the other parts works together
 - Add in the code that I have so far for the driver
+
+### Session 3 End: 10-19-2025 6:40PM
+a) Reflection
+- I updated the encryptor file after some running but there are still some errors to clean up
+- The driver file is now finished and seems to be working as of now
+- I was not able to finish all of the items because I did not get the encryptor fully working
+- I will need to do a full end to end testing in the next session
