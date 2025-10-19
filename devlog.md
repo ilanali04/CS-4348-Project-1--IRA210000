@@ -57,7 +57,7 @@ a) Reflection
 - I have coded the driver but there seems to be an issue for the password. I was able to do some testing but I will need to continue next session 
 - Next session I would like to work on the integration of the of the three parts and ensure that everything is working properly
 
-### Session 3 Start: 10-19-2025 3:PM
+### Session 3 Start: 10-19-2025 3:20PM
 a) Thoughts so far
 - The encryptor had some issues so I plan to try and fix it
 - The driver was also having issues from last session and is unfinished
