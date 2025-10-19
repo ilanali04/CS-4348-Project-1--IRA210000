@@ -56,3 +56,13 @@ a) Reflection
 - I was not able to complete all of the items I wanted for this session
 - I have coded the driver but there seems to be an issue for the password. I was able to do some testing but I will need to continue next session 
 - Next session I would like to work on the integration of the of the three parts and ensure that everything is working properly
+
+### Session 3 Start: 10-19-2025 3:PM
+a) Thoughts so far
+- The encryptor had some issues so I plan to try and fix it
+- The driver was also having issues from last session and is unfinished
+
+b) Plan for this session
+- Fix the issues in the encryptor
+- Continue work on the driver and make sure the integration for the other parts works together
+- Add in the code that I have so far for the driver
