@@ -82,3 +82,10 @@ a) Thoughts so far
 b) Plan for this session
 - Fix the issues in the encryptor
 - Do a full end to end test of the different features
+
+### Session 4 End: 10-19-2025 9:43PM
+a) Reflection
+- I ended up fixing the problem by reverting back to my old encryptor file. I assumed it had problems before because the driver was not fully done. 
+- The encryptor problem is now fixed
+- The full testing resulted in all features working 
+- Added the README file outlining the parts of the project
