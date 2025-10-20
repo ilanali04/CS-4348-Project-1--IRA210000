@@ -73,3 +73,12 @@ a) Reflection
 - The driver file is now finished and seems to be working as of now
 - I was not able to finish all of the items because I did not get the encryptor fully working
 - I will need to do a full end to end testing in the next session
+
+### Session 4 Start: 10-19-2025 8:03PM
+a) Thoughts so far
+- The encryptor had some issues so I plan to try and fix it
+- The driver should now be working but it will be tested
+
+b) Plan for this session
+- Fix the issues in the encryptor
+- Do a full end to end test of the different features
